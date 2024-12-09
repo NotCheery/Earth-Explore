@@ -20,7 +20,9 @@ def run_game():
     background = style_manager.scale_image(background, 800, 400) #scale image to fit the background
     
     #Intro description
-    text = "Hello! I wonder!\n Let's see!"
+    text = ("Since earth’s destruction 300 years ago, a new artificial planet emerged, Neos.\n"
+        "You are a Specialist.\n"
+        "Your mission is to travel to earth and collect resources.")
 
     running = True
     while running:

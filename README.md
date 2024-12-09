@@ -9,8 +9,13 @@ Play here link:
 # Built with:
 Coding: Python (Pygame)
 Tools: Visual Studio
+JSON file for player data
 
 # Features to add:
+[ ] = Intro text + Next button
+[ ] = Launch = yes/no? Initiate countdown to launch to earth.
+[ ] = No launch -> Explore current facility
+[ ] = Facility design -> 3D (small room)
 
 # Disclaimer:
 I do not own the images used in the game.
