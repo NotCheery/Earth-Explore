@@ -7,9 +7,14 @@ class Styling:
         self.text = text
         self.color = color
         self.font = pygame.font.Font(None, font_size)
-        
-    def style_button(self): #changes to anything relying on here
-        return self.color, 3, self.text
+    
+    #button styling for game.py
+    def draw_button(self, text, rect, screen, font_size = 36, color=(255,255,255)):
+        pass
+    
+    #This is to call to background images
+    def screen_images():
+        pass
     
     #Scale to keep background images proportional
     def scale_image(self, image, width, height): #Figure out the math
