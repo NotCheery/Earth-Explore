@@ -16,7 +16,7 @@ def run_game():
     style_manager = Styling() #call to class function Styling
 
     #beginning background image
-    background = pygame.image.load(r"planet-581239_640.jpg") #Load background image
+    background = pygame.image.load(r"images\planet-581239_1280.jpg") #Load background image 
     background = style_manager.scale_image(background, 800, 400) #scale image to fit the background
     
     #Intro description
