@@ -11,7 +11,7 @@ def run_game():
 
     #Display setup
     screen = pygame.display.set_mode((800,400), pygame.RESIZABLE) #this sets the size of the window
-    pygame.display.set_caption('Earth Discovery') #this names the window
+    pygame.display.set_caption('After Earth') #this names the window
 
     style_manager = Styling() #call to class function Styling
 

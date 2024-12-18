@@ -9,3 +9,5 @@ def start_game():
 
 if __name__ == "__main__": #good python practice
     show_menu(start_game_callback=start_game)
+# if __name__ == "__main__": #just the pygame without tkinter
+#     run_game()
